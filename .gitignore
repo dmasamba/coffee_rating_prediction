@@ -8,6 +8,7 @@ __pycache__/
 
 # Ignore generated plots
 plots/
+insight_plots/
 
 # Ignore generated results
 results/
