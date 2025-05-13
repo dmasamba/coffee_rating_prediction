@@ -9,6 +9,9 @@ __pycache__/
 # Ignore generated plots
 plots/
 
+# Ignore generated results
+results/
+
 # Data files (add your data folder if you don't want to track raw data)
 data/*.csv
 # To track the empty data/ folder, add a .gitkeep file inside it
