@@ -4,7 +4,7 @@ This project predicts coffee ratings (Outstanding vs. Average) using machine lea
 
 ## Project Structure
 
-- `data/` — Place your raw data files here (e.g., `X_train.csv`, `y_train.csv`, `X_test.csv`). The folder is tracked via `.gitkeep`, but CSVs are git-ignored.
+- `data/` — Place your raw data files here (e.g., `X_train.csv`, `y_train.csv`, `X_test.csv`). **These CSV files are now tracked in git.**
 - `data_preprocessing.ipynb` — Data cleaning, feature engineering, and transformation pipeline.
 - `train_evaluate.ipynb` — Main notebook for model training, cross-validation, and evaluation (including plots).
 - `test.ipynb` — Loads the best model and generates predictions on the test set.
@@ -13,8 +13,14 @@ This project predicts coffee ratings (Outstanding vs. Average) using machine lea
 - `insight_plots/` — Saved plots from insights/analysis (ignored by git).
 - `results/` — Output predictions (e.g., `result.csv`) (ignored by git).
 - `models/` — Saved model files (ignored by git).
-- `.gitignore` — Ignores data files, model files, results, and plot directories.
+- `.gitignore` — Ignores model files, results, and plot directories.
 - `requirements.txt` — Python dependencies.
+
+## Data
+
+- The `data/` folder contains all required CSV files for training and testing:
+  - `X_train.csv`, `y_train.csv`, `X_test.csv`
+- These files are now included in the repository and will be pushed to git.
 
 ## Data Preprocessing
 
@@ -93,7 +99,7 @@ This project predicts coffee ratings (Outstanding vs. Average) using machine lea
 
 ## Notes
 
-- The `data/` folder is tracked via `.gitkeep` so it exists in git, but CSV files are ignored.
+- The `data/` folder now contains the actual CSV files, which are tracked in git.
 - All generated outputs (plots, results, models) are ignored by git.
 - The best model is automatically selected based on cross-validation F1.
 
